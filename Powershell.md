@@ -31,6 +31,7 @@ Get-Location
 
 alias:
 pwd
+```
 </pre>
 
 Look files and folders:
