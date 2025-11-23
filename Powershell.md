@@ -2,12 +2,12 @@
 
 #### What is PowerShell?
 
-PowerShell is an advanced terminal  for windows, this is more potent than cmd and it allows: 
+PowerShell is an advanced terminal  for Windows, that is more powerful than cmd, it allows you to: 
 
-- Browse Files
-- Exexute Programs
-- Automate Tasks
-- Work with objects, not only text
+- Browse files
+- Execute programs
+- Automate tasks
+- Work with objects, not just text
 
 #### How to execute PowerShell?
 
@@ -17,8 +17,8 @@ There are three ways:
 - In a folder → Shift + rigth click → "Open in a Terminal"
 
 #### Rules for basic commands
-- In Power Shell, the commands are structured by: Verb-Noun (ex: Set-Location)
-- Some commands of cmd works in PS, because PS uses "alias"
+- In Power Shell, commands are structured as follows: Verb-Noun (e.g. Set-Location).
+- Some cmd commands work in PowerShell, because PowerShell uses "aliases"
 
 #### Basic Commands in cmd
 
@@ -36,13 +36,13 @@ Look files and folders:
 <pre>
 Get-ChildItem
 
-alias:
+aliases:
 dir
 ls
 gci
 </pre>
 
-Cambiar de carpeta:
+Change Folder:
 <pre>
 Set-Location My_Folder
 
@@ -50,16 +50,24 @@ alias:
 cd My_folder
 </pre>
 
-Move up a Folder and Set Units alias:
+Note: If the directory contain spaces, you must use quotation marks.
+<pre>
+Set-Location "C:\Users\ypalacios\Desktop\Universidad\Gas Insight Project>"
+
+alias:
+cd "C:\Users\ypalacios\Desktop\Universidad\Gas Insight Project>"
+</pre>
+
+Move up a folder and set Units alias:
 <pre>
 cd..
 D:
 </pre>
 
 
-2- Create and Erase files
+2- Create and erase files
 
-- Create a Folder
+- Create a folder
 <pre>
 New-Item -ItemType Directory MyFolder
 
@@ -67,7 +75,7 @@ alias:
 mkdir MiCarpeta
 </pre>
 
-- Create a File
+- Create a file
 <pre>
 New-Item -ItemType File archivo.txt
 
@@ -76,7 +84,7 @@ or
 "" | Out-File archivo.txt
 </pre>
 
-- Erase a File or Folder
+- Erase a file or folder
 <pre>
 File:
 Remove-Item archivo.txt
@@ -89,7 +97,7 @@ del archivo.txt
 rm archivo.txt
 </pre>
 
-3- View File Content
+3- View file content.
 
 <pre>
 Get-Content archivo.txt
@@ -98,7 +106,7 @@ alias:
 cat archivo.txt
 </pre>
 
-4- Copy and Move Files
+4- Copy and move files
 
 Copy:
 <pre>
@@ -119,12 +127,12 @@ mv archivo.txt .\Documentos\
 
 #### Variables y Objects (Basics)
 
-1- Create a Variable
+1- Create a variable
 <pre>
 $nombre = "Yilmer"
 </pre>
 
-2- Print a Variable
+2- Print a variable
 <pre>
 $nombre
 </pre>
@@ -134,14 +142,14 @@ $nombre
 Get-ChildItem | Select-Object Name, Length
 </pre>
 
-#### Environment Manage
+#### Environment Management
 
-1- Activate an Conda Environment
+1- Activate an Conda environment
 <pre>
 conda activate mi_env
 </pre>
 
-2- Deactivate an Environment
+2- Deactivate an environment
 <pre>
 conda deactivate
 </pre>
