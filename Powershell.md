@@ -26,7 +26,7 @@ There are three ways:
 
 Location:
 <pre>
-```powershell Get-Location ```
+Get-Location
 
 alias:
 pwd
