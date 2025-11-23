@@ -24,9 +24,14 @@ Main functions:
 
 ### Basic Usage  
 
-<pre>*Environment Creation:* conda create -n environment_name  
-*Environment Activation:* conda activate environment_name  
-*Environment Deactivation:* conda deactivate </pre>
+<pre>Environment Creation:  
+conda create -n environment_name  
+  
+Environment Activation:  
+  conda activate environment_name  
+  
+Environment Deactivation:  
+  conda deactivate </pre>  
 
 ### 2 venv Manager 
 ![venv](https://img.shields.io/badge/venv-lightgrey)
