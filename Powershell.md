@@ -1,6 +1,6 @@
 ### Basic Guide of PowerShell
 
-#### What is cmd?
+#### What is PowerShell?
 
 PowerShell is an advanced terminal  for windows, this is more potent than cmd and it allows: 
 
