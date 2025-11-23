@@ -17,4 +17,8 @@ Main functions:
 
 Environment Creation: conda create -n environment_name  
 Environment Activation: conda activate environment_name  
-Environment Deactivation: conda deactivate  
+Environment Deactivation: conda deactivate
+
+
+
+<pre> ```md print("Hola mundo") ``` </pre>
