@@ -14,7 +14,7 @@ PowerShell is an advanced terminal  for windows, this is more potent than cmd an
 There are three ways:  
 - Press Win + X → “Windows PowerShell”.
 - Look up PowerShell in the Windows Search Bar.
-- In a folder → Shift + rigth clic → "Open in a Terminal"
+- In a folder → Shift + rigth click → "Open in a Terminal"
 
 #### Rules for basic commands
 - In Power Shell, the commands are structured by: Verb-Noun (ex: Set-Location)
