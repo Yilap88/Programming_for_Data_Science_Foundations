@@ -25,7 +25,7 @@ There are three ways:
 **1- Browse by Files**
 
 Location:
-<pre>
+<pre>```powershell
 Get-Location
 
 alias:
