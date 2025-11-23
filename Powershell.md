@@ -9,7 +9,7 @@ PowerShell is an advanced terminal  for windows, this is more potent than cmd an
 - Automate Tasks
 - Work with objects, not only text
 
-#### How to execute cmd?
+#### How to execute PowerShell?
 
 There are three ways:  
 - Press Win + X → “Windows PowerShell”.
