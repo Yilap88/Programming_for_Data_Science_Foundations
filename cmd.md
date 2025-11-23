@@ -12,38 +12,22 @@ There are three ways:
 
 #### Basic Commands in cmd
 
-<pre>
 1- View Current Folder  
+<pre>
 cd
 </pre>
 
+2- View Files and Folders  
 <pre>
-2- View Files and Folder  
 dir
 </pre>
 
+2- Change Folder   
 <pre>
-View Current Folder  
-cd
+Open a Folder  
+cd folder_name  
+Move up a level  
+cd..
+Open Unit D:  
+D:
 </pre>
-
-<pre>
-View Current Folder  
-cd
-</pre>
-
-<pre>
-View Current Folder  
-cd
-</pre>
-
-<pre>
-View Current Folder  
-cd
-</pre>
-
-<pre>
-View Current Folder  
-cd
-</pre>
-
