@@ -1,6 +1,15 @@
 ### Environment Config for Python Projects for VSCode
 
-This markdown is for document the main instructions for installation, usage and manage of the enviroments for python projects in VS Code
+This markdown is for document the main instructions for installation, usage and manage of the enviroments for python projects in VS Code. There are the main points of this md:
+
+1- cmd usage
+2 - Conda manager
+3 - venv manager
+
+### 1 CMD usage
+
+### 2 Conda Manager 
+![Conda](https://img.shields.io/badge/conda-342B029.svg?style=for-the-badge&logo=anaconda&logoColor=white)
 
 #### Instalation
 
@@ -18,3 +27,6 @@ Main functions:
 <pre>*Environment Creation:* conda create -n environment_name  
 *Environment Activation:* conda activate environment_name  
 *Environment Deactivation:* conda deactivate </pre>
+
+### 2 venv Manager 
+![venv](https://img.shields.io/badge/venv-lightgrey)
