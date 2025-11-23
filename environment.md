@@ -6,7 +6,10 @@ This markdown is for document the main instructions for installation, usage and 
 2 - Conda manager
 3 - venv manager
 
-### 1- CMD usage
+### 1- CMD and Powershell usage
+click here  
+[cmd](cmd.md)
+[Powershell](powershell.md)
 
 
 ### 2- Conda Manager ![Conda](https://img.shields.io/badge/conda-342B029.svg?style=for-the-badge&logo=anaconda&logoColor=white)  
