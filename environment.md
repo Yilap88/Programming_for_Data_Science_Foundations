@@ -7,8 +7,8 @@ This markdown is for document the main instructions for installation, usage and 
 3 - venv manager
 
 ### 1- CMD and Powershell usage
-click here  
-[cmd](cmd.md)
+click here...  
+[cmd](cmd.md)  
 [Powershell](powershell.md)
 
 
