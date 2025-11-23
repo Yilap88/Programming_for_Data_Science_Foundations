@@ -26,12 +26,11 @@ There are three ways:
 
 Location:
 <pre>
-```powershell
-Get-Location
+```powershell Get-Location ```
 
 alias:
 pwd
-```
+
 </pre>
 
 Look files and folders:
