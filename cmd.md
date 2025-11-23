@@ -22,12 +22,54 @@ cd
 dir
 </pre>
 
-2- Change Folder   
+3- Change Folder   
 <pre>
 Open a Folder  
 cd folder_name  
+  
 Move up a level  
 cd..
+  
 Open Unit D:  
 D:
+</pre>
+
+4- Create Folders and files  
+<pre>
+Folder  
+mkdir my_folder  
+  
+File  
+type nul > file.txt
+</pre>
+
+5- Erase Folders and files  
+<pre>
+Folder  
+rmdir folder /s /q
+  
+File  
+del file.txt
+</pre>
+
+6- Rename  
+<pre>
+ren file.txt new_name.txt
+</pre>
+
+7- Viewing the contents of a file
+<pre>
+type file.txt
+</pre>
+
+#### Programs Execution
+
+1- In your current directory, just call the program  
+<pre>
+python
+</pre>
+
+2- In other directory
+<pre>
+"C:\Ruta\program.exe"
 </pre>
