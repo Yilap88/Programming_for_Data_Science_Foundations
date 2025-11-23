@@ -15,10 +15,10 @@ Main functions:
 
 ### Basic Usage  
 
-Environment Creation: conda create -n environment_name  
+
+
+
+
+<pre> Environment Creation: conda create -n environment_name  
 Environment Activation: conda activate environment_name  
-Environment Deactivation: conda deactivate
-
-
-
-<pre> ```md print("Hola mundo") ``` </pre>
+Environment Deactivation: conda deactivate </pre>
