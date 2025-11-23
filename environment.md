@@ -6,10 +6,10 @@ This markdown is for document the main instructions for installation, usage and 
 2 - Conda manager
 3 - venv manager
 
-### 1 CMD usage
+### 1- CMD usage
 
-### 2 Conda Manager 
-![Conda](https://img.shields.io/badge/conda-342B029.svg?style=for-the-badge&logo=anaconda&logoColor=white)
+
+### 2- Conda Manager ![Conda](https://img.shields.io/badge/conda-342B029.svg?style=for-the-badge&logo=anaconda&logoColor=white)  
 
 #### Instalation
 
@@ -28,10 +28,9 @@ Main functions:
 conda create -n environment_name  
   
 Environment Activation:  
-  conda activate environment_name  
+conda activate environment_name  
   
 Environment Deactivation:  
-  conda deactivate </pre>  
+conda deactivate</pre>  
 
-### 2 venv Manager 
-![venv](https://img.shields.io/badge/venv-lightgrey)
+### 3- venv Manager ![venv](https://img.shields.io/badge/venv-lightgrey)  
