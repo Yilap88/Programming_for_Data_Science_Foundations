@@ -1,6 +1,6 @@
-### Basic Guide of PowerShell
+## Basic Guide of PowerShell
 
-#### What is PowerShell?
+### What is PowerShell?
 
 PowerShell is an advanced terminal  for Windows, that is more powerful than cmd, it allows you to: 
 
@@ -9,20 +9,20 @@ PowerShell is an advanced terminal  for Windows, that is more powerful than cmd,
 - Automate tasks
 - Work with objects, not just text
 
-#### How to execute PowerShell?
+### How to execute PowerShell?
 
 There are three ways:  
 - Press Win + X → “Windows PowerShell”.
 - Look up PowerShell in the Windows Search Bar.
 - In a folder → Shift + rigth click → "Open in a Terminal"
 
-#### Rules for basic commands
+### Rules for basic commands
 - In Power Shell, commands are structured as follows: Verb-Noun (e.g. Set-Location).
 - Some cmd commands work in PowerShell, because PowerShell uses "aliases"
 
-#### Basic Commands in cmd
+### Basic Commands in cmd
 
-1- Browse by Files
+**1- Browse by Files**
 
 Location:
 <pre>
@@ -65,7 +65,7 @@ D:
 </pre>
 
 
-2- Create and erase files
+**2- Create and erase files**
 
 - Create a folder
 <pre>
@@ -97,7 +97,7 @@ del archivo.txt
 rm archivo.txt
 </pre>
 
-3- View file content.
+**3- View file content.**
 
 <pre>
 Get-Content archivo.txt
@@ -106,7 +106,7 @@ alias:
 cat archivo.txt
 </pre>
 
-4- Copy and move files
+**4- Copy and move files**
 
 Copy:
 <pre>
@@ -125,36 +125,36 @@ mv archivo.txt .\Documentos\
 </pre>
 
 
-#### Variables y Objects (Basics)
+### Variables y Objects (Basics)
 
-1- Create a variable
+**1- Create a variable**
 <pre>
 $nombre = "Yilmer"
 </pre>
 
-2- Print a variable
+**2- Print a variable**
 <pre>
 $nombre
 </pre>
 
-3- PowerShell works with objects, for example:
+**3- PowerShell works with objects, for example:**
 <pre>
 Get-ChildItem | Select-Object Name, Length
 </pre>
 
-#### Environment Management
+### Environment Management
 
-1- Activate an Conda environment
+**1- Activate an Conda environment**
 <pre>
 conda activate mi_env
 </pre>
 
-2- Deactivate an environment
+**2- Deactivate an environment**
 <pre>
 conda deactivate
 </pre>
 
-3- Activate a venv:
+**3- Activate a venv:**
 <pre>
 .\mi_env\Scripts\Activate.ps1
 </pre>
