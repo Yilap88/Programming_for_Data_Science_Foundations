@@ -9,7 +9,7 @@ This markdown is for document the main instructions for installation, usage and 
 ### 1- CMD and Powershell usage
 click here...  
 [cmd](cmd.md)  
-[Powershell](powershell.md)
+[Powershell](Powershell.md)
 
 
 ### 2- Conda Manager ![Conda](https://img.shields.io/badge/conda-342B029.svg?style=for-the-badge&logo=anaconda&logoColor=white)  
