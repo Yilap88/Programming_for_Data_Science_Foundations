@@ -1,7 +1,7 @@
 # Programming_Notes
 This is my personal notes for programing
 
-![imagen](image/codeline_gemini.png)
+<img src="image/codeline_gemini.png" alt="Imagen" width="200"/>
 
 ## Main Topics
 - [01 cmd basics](cmd.md)
