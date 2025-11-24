@@ -7,12 +7,12 @@ This markdown is for document the main instructions for installation, usage and 
 3 - venv manager
 
 ### 1- CMD and Powershell usage
-click here...  
+for more info, click here...  
 [cmd](cmd.md)  
 [Powershell](Powershell.md)
 
 
-### 2- Conda Manager ![Conda](https://img.shields.io/badge/conda-342B029.svg?style=for-the-badge&logo=anaconda&logoColor=white)  
+### 2- Conda Manager
 
 #### Instalation
 
@@ -25,7 +25,7 @@ Main functions:
 - Environment managing
 - Multiplatforms: Win, MacOS y Linux
 
-### Basic Usage  
+#### Basic Usage  
 
 <pre>Environment Creation:  
 conda create -n environment_name  
@@ -36,4 +36,17 @@ conda activate environment_name
 Environment Deactivation:  
 conda deactivate</pre>  
 
-### 3- venv Manager ![venv](https://img.shields.io/badge/venv-lightgrey)  
+### 3- venv Manager
+venv is a Python tool that enables you to create virtual environments: isolated spaces in which you can install libraries without affecting the rest of the system.
+
+With venv you can:
+- Having projects with different versions of libraries
+- Avoid conflicts between dependencies.
+- Keep each project clean and organized
+
+To use venv you need python 3 installed, you can check the version as follows in PowerShell:
+
+<pre> ´´´powershell py
+</pre>
+
+
