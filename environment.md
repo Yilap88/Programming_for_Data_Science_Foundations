@@ -107,7 +107,7 @@ deactivate
 
 ### Environment erasure
 <pre>
-Remove-Item mi_entorno -Recurse -Force
+Remove-Item my_environment -Recurse -Force
 </pre>
 
 ### Environment creation with a specific Python version
