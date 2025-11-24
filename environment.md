@@ -56,7 +56,7 @@ py --version
 
 Command:
 <pre>
-python -m venv mi_entorno
+python -m venv my_environment
 </pre>
 
 This creates a folder called 'my_environment' that contains:
@@ -70,21 +70,21 @@ You can use any name, such as env, .venv or virtual.
 
 Powershell
 <pre>
-.\mi_entorno\Scripts\Activate.ps1
+.\my_environment\Scripts\Activate.ps1
 </pre>
 
 cmd
 <pre>
-mi_entorno\Scripts\activate.bat
+my_environment\Scripts\activate.bat
 </pre>
 
 Gitbash
 <pre>
-source mi_entorno/bin/activate
+source my_environment/bin/activate
 </pre>
 
 Once activated, the name of the environment will appear at the beginning of the code line as follows:
-*(mi_environment) PS C:\Users\Yilmer>*
+*(my_environment) PS C:\Users\Yilmer>*
 
 #### Installation of libraries inside the environment
 
