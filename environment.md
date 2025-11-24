@@ -46,7 +46,98 @@ With venv you can:
 
 To use venv you need python 3 installed, you can check the version as follows in PowerShell:
 
-<pre> ´´´powershell py´´´
+<pre>
+python --version
+or
+py --version
 </pre>
+
+#### Environment creation
+
+Command:
+<pre>
+python -m venv mi_entorno
+</pre>
+
+This creates a folder called 'my_environment' that contains:
+- Local Python for the environment
+- scripts to activate it;
+- A site-packages folder for your libraries.
+  
+You can use any name, such as env, .venv or virtual.
+
+#### Environment activation
+
+Powershell
+<pre>
+.\mi_entorno\Scripts\Activate.ps1
+</pre>
+
+cmd
+<pre>
+mi_entorno\Scripts\activate.bat
+</pre>
+
+Gitbash
+<pre>
+source mi_entorno/bin/activate
+</pre>
+
+Once activated, the name of the environment will appear at the beginning of the code line as follows:
+*(mi_environment) PS C:\Users\Yilmer>*
+
+#### Installation of libraries inside the environment
+
+Once the environment is active, type:
+<pre>
+pip install name_of_library
+pip install numpy
+</pre>
+*The libraries are isolated within their environment.  *
+
+The next command will show you what is installed:
+<pre>
+pip list
+</pre>
+
+#### Environment deactivation
+<pre>
+deactivate
+</pre>
+
+#### Environment erasure
+<pre>
+Remove-Item mi_entorno -Recurse -Force
+</pre>
+
+#### Environment creation with a specific Python version
+<pre>
+py -3.11 -m venv env311
+</pre>
+
+#### Practical tips
+
+**- Use the name ".venv" for your environment:** Many tools detect it automatically.  
+
+**- Agregar .venv al .gitignore si usas Git:** You should not upload the environment to the repository.
+<pre>
+.venv/
+</pre>
+
+**- Crear un requirements.txt:** 
+To save your libraries:
+<pre>
+pip freeze > requirements.txt
+</pre>
+
+And then reinstall them:
+<pre>
+pip install -r requirements.txt
+</pre>
+
+
+
+
+
 
 
