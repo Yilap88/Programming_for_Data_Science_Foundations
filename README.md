@@ -1,7 +1,7 @@
 # Programming_Notes
 This is my personal notes for programing
 
-(image/codeline_gemini.png)
+!(image/codeline_gemini.png)
 
 ## Main Topics
 - [01 cmd basics](cmd.md)
