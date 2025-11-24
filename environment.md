@@ -1,4 +1,4 @@
-### Environment Config for Python Projects for VSCode
+## Environment Config for Python Projects for VSCode
 
 This markdown is for document the main instructions for installation, usage and manage of the enviroments for python projects in VS Code. There are the main points of this md:
 
@@ -6,15 +6,15 @@ This markdown is for document the main instructions for installation, usage and 
 2 - Conda manager
 3 - venv manager
 
-### 1- CMD and Powershell usage
+## 1- CMD and Powershell usage
 for more info, click here...  
 [cmd](cmd.md)  
 [Powershell](Powershell.md)
 
 
-### 2- Conda Manager
+## 2- Conda Manager
 
-#### Instalation
+### Instalation
 
 You have to install Conda or minicoda in [Anaconda](https://anaconda.org/anaconda/conda)
 
@@ -25,7 +25,7 @@ Main functions:
 - Environment managing
 - Multiplatforms: Win, MacOS y Linux
 
-#### Basic Usage  
+### Basic Usage  
 
 <pre>Environment Creation:  
 conda create -n environment_name  
@@ -36,7 +36,7 @@ conda activate environment_name
 Environment Deactivation:  
 conda deactivate</pre>  
 
-### 3- venv Manager
+## 3- venv Manager
 venv is a Python tool that enables you to create virtual environments: isolated spaces in which you can install libraries without affecting the rest of the system.
 
 With venv you can:
@@ -52,7 +52,7 @@ or
 py --version
 </pre>
 
-#### Environment creation
+### Environment creation
 
 Command:
 <pre>
@@ -66,7 +66,7 @@ This creates a folder called 'my_environment' that contains:
   
 You can use any name, such as env, .venv or virtual.
 
-#### Environment activation
+### Environment activation
 
 Powershell
 <pre>
@@ -86,7 +86,7 @@ source my_environment/bin/activate
 Once activated, the name of the environment will appear at the beginning of the code line as follows:
 *(my_environment) PS C:\Users\Yilmer>*
 
-#### Installation of libraries inside the environment
+### Installation of libraries inside the environment
 
 Once the environment is active, type:
 <pre>
@@ -100,22 +100,22 @@ The next command will show you what is installed:
 pip list
 </pre>
 
-#### Environment deactivation
+### Environment deactivation
 <pre>
 deactivate
 </pre>
 
-#### Environment erasure
+### Environment erasure
 <pre>
 Remove-Item mi_entorno -Recurse -Force
 </pre>
 
-#### Environment creation with a specific Python version
+### Environment creation with a specific Python version
 <pre>
 py -3.11 -m venv env311
 </pre>
 
-#### Practical tips
+### Practical tips
 
 **- Use the name ".venv" for your environment:** Many tools detect it automatically.  
 
