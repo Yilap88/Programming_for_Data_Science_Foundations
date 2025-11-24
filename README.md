@@ -6,4 +6,4 @@ This is my personal notes for programing
 ## Main Topics
 - [01 cmd basics](cmd.md)
 - [02 PowerShell basics](Powershell.md)
-- [03 Conda and Env environment management basics](environment)
+- [03 Conda and Env environment management basics](environment.md)
