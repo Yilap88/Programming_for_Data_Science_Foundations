@@ -46,7 +46,7 @@ With venv you can:
 
 To use venv you need python 3 installed, you can check the version as follows in PowerShell:
 
-<pre> ´´´powershell py
+<pre> ´´´powershell py´´´
 </pre>
 
 
