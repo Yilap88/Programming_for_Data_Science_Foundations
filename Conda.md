@@ -53,13 +53,49 @@ conda init --reverse powershell
 </pre>
 
 
-### Basic Usage  
+## Basic Usage  
 
-<pre>Environment Creation:  
-conda create -n environment_name  
+To view command list:
+<pre>
+conda env list
+</pre>
+
+Environment Creation:
+<pre>  
+conda create -n mi_env
+</pre>
+
+Environment Creation with a specific python version:
+<pre>  
+conda create -n mi_env python=3.10
+</pre> 
   
 Environment Activation:  
-conda activate environment_name  
-  
+<pre>  
+conda activate mi_env
+</pre> 
+
 Environment Deactivation:  
-conda deactivate</pre>  
+<pre>  
+conda deactivate
+</pre>
+
+Environment Erasure:  
+<pre>  
+conda remove -n mi_env --all
+</pre>
+
+Package Installation:
+<pre>  
+conda install numpy pandas scikit-learn
+</pre>
+
+Package Installation with a specific version:
+<pre>  
+conda install numpy=1.26
+</pre>
+
+
+
+
+
