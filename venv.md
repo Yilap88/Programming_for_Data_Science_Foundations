@@ -1,42 +1,13 @@
-## Environment Config for Python Projects for VSCode
+## venv - Environment Config for Python Projects for VSCode
 
-This markdown is for document the main instructions for installation, usage and manage of the enviroments for python projects in VS Code. There are the main points of this md:
+This Markdown document outlines the main instructions for installing, using and managing Python project environments in VS Code.
 
-1- cmd usage
-2 - Conda manager
-3 - venv manager
-
-## 1- CMD and Powershell usage
-for more info, click here...  
+For CMD and Powershell usage, click here...  
 [cmd](cmd.md)  
 [Powershell](Powershell.md)
 
 
-## 2- Conda Manager
-
-### Instalation
-
-You have to install Conda or minicoda in [Anaconda](https://anaconda.org/anaconda/conda)
-
-Conda is a package manager and open code environments, used mainly in data science for version and library managing. It allows to install, execute and update packages, and to create separated virtual environments for different projects, that allows to avoid conflicts betwen dependecies. It is compatible with R and Python.
-
-Main functions:
-- Package managing
-- Environment managing
-- Multiplatforms: Win, MacOS y Linux
-
-### Basic Usage  
-
-<pre>Environment Creation:  
-conda create -n environment_name  
-  
-Environment Activation:  
-conda activate environment_name  
-  
-Environment Deactivation:  
-conda deactivate</pre>  
-
-## 3- venv Manager
+## venv Manager
 venv is a Python tool that enables you to create virtual environments: isolated spaces in which you can install libraries without affecting the rest of the system.
 
 With venv you can:
