@@ -61,38 +61,31 @@ conda env list
 </pre>
 
 Environment Creation:
-<pre>  
-conda create -n mi_env
+<pre>conda create -n mi_env
 </pre>
 
 Environment Creation with a specific python version:
-<pre>  
-conda create -n mi_env python=3.10
+<pre>conda create -n mi_env python=3.10
 </pre> 
   
 Environment Activation:  
-<pre>  
-conda activate mi_env
+<pre>conda activate mi_env
 </pre> 
 
 Environment Deactivation:  
-<pre>  
-conda deactivate
+<pre>conda deactivate
 </pre>
 
 Environment Erasure:  
-<pre>  
-conda remove -n mi_env --all
+<pre>conda remove -n mi_env --all
 </pre>
 
 Package Installation:
-<pre>  
-conda install numpy pandas scikit-learn
+<pre>conda install numpy pandas scikit-learn
 </pre>
 
 Package Installation with a specific version:
-<pre>  
-conda install numpy=1.26
+<pre>conda install numpy=1.26
 </pre>
 
 
