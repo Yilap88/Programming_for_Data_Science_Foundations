@@ -1,19 +1,20 @@
 ## Automation script and project entry point (runall.ps1).
 
-An automation scripts are used to execute many steps in a secuencial form, their objetive is the reproducibility and execution of projects automaticaly without error by anyone even yourself.
+Automation scripts are used to execute many steps sequentially in Powershell or cmd. Their objective is to enable the reproducible and error-free automation of projects by anyone, including yourself.
 
-There are the typical structure for a runall.ps1:
+The typical structure of a runall.ps1 is as follows:
 
-- Activation of the environtment (venv o conda)
-- Installation of Indepencies
-- ETL execution
-- models or code executions
+- Activation of the environment (venv or conda)
+- Installation of dependencies
+- Execution of ETL
+- Execution of models or code
 
-Here is an example of a runall.ps1, executable in powershell, executing a project which uses python scripts
+Here is an example of a runAll.ps1 executable in PowerShell that runs a project using Python scripts.
+
 <pre>
 Write-Output "Empezando"
 
-$Pythonscriptpath = "C:\Users\ypalacios\Desktop\Universidad\Taller4\taller4-GPI\"
+$Pythonscriptpath = "C:\Users\ypalacios\Desktop\energy\"
 & set-location $Pythonscriptpath
 
 & conda env create -f environment.yml
