@@ -1,7 +1,7 @@
 # Programming_Notes
 This is my personal notes for programing
 
-<img src="image/codeline.jpeg" alt="Imagen" width="400"/>
+<img src="image/codeline.jpeg" alt="Imagen" width="200"/>
 
 ## Main Topics
 - [01 cmd basics](cmd.md)
