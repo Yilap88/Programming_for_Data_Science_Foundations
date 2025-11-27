@@ -1,5 +1,4 @@
-# Programming_Notes
-This is my personal notes for programing
+# Programming for Data Science Foundations
 
 <img src="image/codeline.jpeg" alt="Imagen" width="200"/>
 
