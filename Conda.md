@@ -60,6 +60,7 @@ To view command list:
 conda env list
 </pre>
 
+### Environment Management
 Environment Creation:
 <pre>conda create -n mi_env
 </pre>
@@ -80,6 +81,7 @@ Environment Erasure:
 <pre>conda remove -n mi_env --all
 </pre>
 
+### Package Management
 Package Installation:
 <pre>conda install numpy pandas scikit-learn
 </pre>
@@ -87,6 +89,45 @@ Package Installation:
 Package Installation with a specific version:
 <pre>conda install numpy=1.26
 </pre>
+
+Look for package
+<pre>conda search numpy
+</pre>
+
+Update package
+<pre>conda update numpy
+</pre>
+
+### Environment Recreaction (yaml)
+
+Environment export to a yaml file
+<pre>conda env export > environment.yml
+</pre>
+
+Environment creation importing yml file
+<pre>conda env create -f environment.yml
+</pre>
+
+### Package Installation for conda forge
+
+<pre>conda install -c conda-forge numpy
+</pre>
+
+Using conda forge always
+<pre>conda config --add channels conda-forge
+conda config --set channel_priority strict
+</pre>
+
+Mixed with pip
+<pre>pip install plotly
+</pre>
+
+### Erasure of unnecesary package with conda
+<pre>
+conda clean --all
+</pre>
+
+
 
 
 
