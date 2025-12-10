@@ -104,6 +104,12 @@ Environment export to a yaml file
 <pre>conda env export > environment.yml
 </pre>
 
+Export the environment to a replicable YAML file (without including the prefix or internal dependencies; just include what you have installed).
+<pre>conda env export --from-history > environment.yml
+</pre>
+
+
+
 Environment creation importing yml file
 <pre>conda env create -f environment.yml
 </pre>
